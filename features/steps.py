@@ -16,4 +16,4 @@ def call_fizzbuzz(step):
 
 @step('I see the output (\w+)')
 def compare(step, expected):
-    assert world.fb == expected, "Got %s" % world.fb
+    assert world.fb == expected, "Got %s" % expected
